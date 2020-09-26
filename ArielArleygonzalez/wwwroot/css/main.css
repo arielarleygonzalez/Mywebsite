@@ -52,14 +52,13 @@
 }
 
 body {
-  color: #777777;
-  
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 1.625em;
-  position: relative;
-  
+    color: #777777;
+   5
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
 }
 
 
@@ -766,12 +765,12 @@ td, th {
 .section-bg {
   background: #f9fafc;
 }
-
+/* 
 @media (max-width: 767px) {
   .no-flex-xs {
     display: block !important;
   }
-}
+}*/
 
 .row.no-margin {
   margin-left: 0;
@@ -1961,18 +1960,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#particles canvas,.banner-area{
-    
+ .banner-area {
     background-image: -moz-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
-  background-image: -webkit-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
-  background-image: -ms-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
-    position: absolute;
-
+    background-image: -webkit-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
+    background-image: -ms-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
+    /*  position: absolute;
     height: auto;
     z-index: -1;
-     background-repeat: no-repeat;
-  background-size: contain;
-  
+    background-repeat: no-repeat;
+    background-size: contain;*/
 }
 
 .p1-gradient-bg, .primary-btn, .primary-btn2:hover, .default-header, .dropdown-menu, .myself-wrap .desc .talk-btn, .skillbar-bar, .single-feature:hover, .single-footer-widget .click-btn, .generic-banner {
@@ -2144,11 +2140,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fff;
 }
 
-@media (max-width: 767px) {
-  .banner-area .fullscreen {
-    height: 700px !important;
-  }
-}
 
 @media (max-width: 991px) {
   .banner-left {
